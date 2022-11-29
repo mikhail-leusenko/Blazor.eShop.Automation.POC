@@ -1,2 +1,10 @@
 
-.vs/Blazor.eShop/v16/.suo
+.suo
+*.feature.cs
+*.cache
+*.dll
+*.pdb
+bin/
+obj/
+Debug/
+Release/
