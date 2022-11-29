@@ -9,3 +9,7 @@ obj/
 Debug/
 Release/
 .vs/
+eShop.BDD/eShop.BDD.UI/obj/Debug/net5.0/eShop.BDD.UI.csproj.FileListAbsolute.txt
+eShop.BDD/eShop.BDD.Core/obj/Debug/net5.0/eShop.BDD.Core.csproj.FileListAbsolute.txt
+eShop.BDD/eShop.BDD.Core/obj/Debug/net5.0/eShop.BDD.Core.csproj.FileListAbsolute.txt
+eShop.BDD/eShop.BDD.Core/obj/Debug/net5.0/eShop.BDD.Core.assets.cache
