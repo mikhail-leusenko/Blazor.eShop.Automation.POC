@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
@@ -51,7 +50,6 @@ namespace eShop.BDD.UI.Steps
 
             Assert.AreEqual(productPrice,
                prodPrice);
-            //"^(-?)(0|([1-9][0-9]*))(\\.[0-9]+)?$"
         }
 
         [Then(@"total price value is (.*)")]
@@ -99,10 +97,6 @@ namespace eShop.BDD.UI.Steps
         {
             Assert.AreEqual(totalItemsCount,
                 Int32.Parse(Regex.Match(this.GetElementOnCurrentPage("Total Items", "Count").Text, @"\d+").Value));
-            //(this.GetElementOnCurrentPage("Total Items", "Count")
-            //.Text
-            //.Split("(")[1]
-            //.Trim())); ;
         }
 
         [Then(@"total price is equal to the sum of all product prices multuiplied on it quantities and is (.*)")]
@@ -114,11 +108,6 @@ namespace eShop.BDD.UI.Steps
 
             foreach (var product in actualProducts)
             {
-                //actualProductsPricesSum =+ double.Parse(product.FindElement(By.Id("itemPrice"))
-                //    .Text
-                //    .Split("$")[1]
-                //    .Trim());
-
                 var prodPr = double.Parse(product.FindElement(By.Id("itemPrice"))
                     .Text
                     .Split("$")[1]
@@ -127,11 +116,6 @@ namespace eShop.BDD.UI.Steps
                 var prodQty = int.Parse(product.FindElement(By.Id("itemQty")).GetAttribute("value").Trim());
 
                 actualProductsPricesSum += (prodPr * prodQty);
-                    //double.Parse(product.FindElement(By.Id("itemPrice"))
-                    //.Text
-                    //.Split("$")[1]
-                    //.Trim()) 
-                    //* int.Parse(product.FindElement(By.Id("itemQty")).GetAttribute("value").Trim());
             }
 
             actualProductsPricesSum = Math.Round(actualProductsPricesSum, 2);

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace eShop.BDD.Core.Models
+﻿namespace eShop.BDD.Core.Models
 {
     public class ProductOrderConfirmationModel
     {

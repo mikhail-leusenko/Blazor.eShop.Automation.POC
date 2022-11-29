@@ -2,11 +2,6 @@
 using eShop.CoreBusiness.Models;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 
 namespace eShop.BDD.UI.Steps

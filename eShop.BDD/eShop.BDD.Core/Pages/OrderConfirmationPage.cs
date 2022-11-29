@@ -1,13 +1,10 @@
 ﻿using eShop.BDD.Core.Attributes;
+using eShop.BDD.Core.Pages.Base;
 using OpenQA.Selenium;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 
-namespace eShop.BDD.Core.Pages.Base
+namespace eShop.BDD.Core.Pages
 {
     public class OrderConfirmationPage : BasePage
     {

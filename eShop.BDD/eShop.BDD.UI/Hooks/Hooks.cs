@@ -11,23 +11,10 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using eShop.UseCases.PluginInterfaces.DataStore;
 using eShop.BDD.Core.Data;
-using eShop.UseCases.ViewProductScreen.Interfaces;
-using eShop.UseCases.ViewProductScreen;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using eShop.UseCases.PluginInterfaces.StateStore;
-using eshop.StateStore.DI;
-using eShop.UseCases.PluginInterfaces.UI;
 using System.Linq;
-using Microsoft.Extensions.Configuration;
-using eShop.UseCases.ShoppingCartScreen;
-using Microsoft.AspNetCore.Components;
-using eShop.CoreBusiness.Models;
 using System.Threading.Tasks;
-using eShop.BDD.UI.Steps;
 using eShop.BDD.Core.Steps;
 using OpenQA.Selenium;
-using System.Collections.Generic;
-using OpenQA.Selenium.Support.UI;
 
 [assembly: Parallelizable(ParallelScope.Fixtures)]
 
@@ -192,38 +179,6 @@ namespace eShop.BDD.UI.Hooks
             // set TestOrderRepository
             featureContext.Set(new TestOrderRepository());
             featureContext.Get<IServiceCollection>().AddSingleton<IOrderRepository, TestOrderRepository>();
-        }
-
-        /// <summary>
-        /// Sets optional services based on Feature/Scenario tag.
-        /// Appropriate tag should look like 'Service_%ServiceName%'.
-        /// Duplicated tags won't be added while the 'TryAdd' DI Exctension methods are using.
-        /// The same services won't be added in Startup.cs becaause the appropriate implementation was changed to use 'TryAdd' DI Exctension methods.
-        /// Make sure that 'serviceName' values in this method and feature file are equal.
-        /// </summary>
-        /// <param name="featureContext">Instance of the FeatureContext to obtain IServiceCollection. </param>
-        /// <param name="serviceName">Name of the service to be injected without 'Service_' prefix. </param>
-        private static void SetOptionalServices(FeatureContext featureContext, string serviceName)
-        {
-            var serviceCollection = featureContext.Get<IServiceCollection>();
-            serviceCollection.AddRazorPages();
-            serviceCollection.AddServerSideBlazor();
-            serviceCollection.AddSingleton<IConfiguration>();
-
-            var conf = serviceCollection.FirstOrDefault(x => x.ServiceType.Name.Contains("IConfiguration"));
-
-            switch (serviceName)
-            {
-                case "SetCart":
-                    serviceCollection.TryAddScoped<IShoppingCart, eShop.ShoppingCart.LocalStorage.ShoppingCart>();
-                    serviceCollection.TryAddScoped<IShoppingCartStateStore, ShoppingCartStateStore>();
-                    serviceCollection.TryAddTransient<IAddProductToCartUseCase, AddProductToCartUseCase>();
-
-                    var config = serviceCollection.FirstOrDefault(x => x.ServiceType.Name.Contains("IConfiguration"));
-                    break;
-                default:
-                    throw new NotSupportedException($"The specified {serviceName} service is not supported by current implementation. ");
-            }
         }
     }
 }

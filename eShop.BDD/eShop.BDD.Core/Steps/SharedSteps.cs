@@ -1,5 +1,4 @@
-﻿using eShop.BDD.Core.Data;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using System.Reflection;
 using TechTalk.SpecFlow;

@@ -1,14 +1,10 @@
-﻿using eShop.BDD.Core.Data;
-using eShop.BDD.Core.Helpers;
-using eShop.BDD.Core.Pages.Base;
+﻿using eShop.BDD.Core.Helpers;
 using eShop.BDD.Core.WebDriver;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 

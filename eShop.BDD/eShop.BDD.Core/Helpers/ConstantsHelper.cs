@@ -1,10 +1,6 @@
 ﻿using eShop.BDD.Core.Attributes;
 using eShop.BDD.Core.Data;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace eShop.BDD.Core.Helpers
 {
