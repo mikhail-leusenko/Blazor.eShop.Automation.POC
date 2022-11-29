@@ -13,6 +13,11 @@ namespace eShop.BDD.Core.WebHost
         {
             ExpectedStartPort = expectedStartPort;
         }
+
+        /// <summary>
+        /// Obtain the free tcp port after comparing to the expected one.
+        /// </summary>
+        /// <returns>Integer representation of TCP port to start the Web Application Host. </returns>
         public int GetFreeTcpPort()
         {
             if (this.ExpectedStartPort <= 0)

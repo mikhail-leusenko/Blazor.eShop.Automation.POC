@@ -6,6 +6,12 @@ namespace eShop.BDD.Core.Helpers
 {
     public class ConstantsHelper
     {
+        /// <summary>
+        /// Gets the appropriate Constant message value from Constants.cs.
+        /// </summary>
+        /// <param name="context">Storage of the instance of page class, which should contain required element. </param>
+        /// <param name="value">The name and type of element to be found. </param>
+        /// <returns>The appropriate Constant message. </returns>
         public static string GetConstantMessage(string value)
         {
             var constantObject = ConvertMessageToObject(value);
@@ -20,6 +26,12 @@ namespace eShop.BDD.Core.Helpers
             }
         }
 
+        /// <summary>
+        /// Gets the appropriate Constant page defaulter value from Constants.cs.
+        /// </summary>
+        /// <param name="context">Storage of the instance of page class, which should contain required element. </param>
+        /// <param name="value">The name and type of element to be found. </param>
+        /// <returns>The appropriate Constant page defaulter. </returns>
         public static string GetConstantPageDefaulterValue(string value)
         {
             var constantObject = ConvertPageConstNameToObject(value);

@@ -177,7 +177,5 @@ namespace eShop.BDD.UI.Steps
 
             return expectedCustomerInfo;
         }
-
-        
     }
 }

@@ -130,6 +130,10 @@ namespace eShop.BDD.Core.WebHost
             this.WebHost.Start();
         }
 
+        /// <summary>
+        /// Sets service provider in order to access the services implementations from the code.
+        /// </summary>
+        /// <returns>ServiceProvider instance. </returns>
         public IServiceProvider SetServiceProvider()
         {
             if(this.WebHost != null)

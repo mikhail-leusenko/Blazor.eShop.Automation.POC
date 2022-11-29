@@ -77,16 +77,6 @@ namespace eShop.BDD.UI.Steps
         {
             this.PerfromJSWait();
 
-            //IReadOnlyCollection<IWebElement> elements = new List<IWebElement>();
-            //try
-            //{
-            //    elements.Concat(this.GetElementsOnPage("Products", "Products"));
-            //}
-            //catch(NoSuchElementException)
-            //{
-            //    CollectionAssert.IsEmpty(elements);
-            //}
-
             CollectionAssert.IsEmpty(this.GetElementsOnPage("Products", "Products"));
         }
 
@@ -113,6 +103,5 @@ namespace eShop.BDD.UI.Steps
                 Assert.IsTrue(brandName.Contains(searchRequest), $"Product brand name '{brandName}' does not contain specified value: '{searchRequest}'.");
             }
         }
-
     }
 }
