@@ -1,0 +1,5 @@
+D:\Repos\Blazor_eshop_solution\Blazor.eShop\eShop.BDD\eShop.BDD.Core\obj\Debug\netcoreapp3.1\eShop.BDD.Core.csproj.AssemblyReference.cache
+D:\Repos\Blazor_eshop_solution\Blazor.eShop\eShop.BDD\eShop.BDD.Core\obj\Debug\netcoreapp3.1\eShop.BDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Blazor_eshop_solution\Blazor.eShop\eShop.BDD\eShop.BDD.Core\obj\Debug\netcoreapp3.1\eShop.BDD.Core.AssemblyInfoInputs.cache
+D:\Repos\Blazor_eshop_solution\Blazor.eShop\eShop.BDD\eShop.BDD.Core\obj\Debug\netcoreapp3.1\eShop.BDD.Core.AssemblyInfo.cs
+D:\Repos\Blazor_eshop_solution\Blazor.eShop\eShop.BDD\eShop.BDD.Core\obj\Debug\netcoreapp3.1\eShop.BDD.Core.csproj.CoreCompileInputs.cache

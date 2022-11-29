@@ -1,0 +1,767 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.UI\\eShop.BDD.UI.csproj": {}
+  },
+  "projects": {
+    "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj",
+        "projectName": "eShop.CoreBusiness",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj",
+        "projectName": "eShop.ShoppingCart.LocalStorage",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\eShop.ShoppingCart.LocalStorage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj",
+        "projectName": "eShop.UseCases",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj",
+        "projectName": "eShop.Web.Common",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj",
+        "projectName": "eShop.Web.CustomerPortal",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj",
+        "projectName": "eShop.Web",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\eShop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\Plugins\\eshop.StateStore.DI\\eshop.StateStore.DI.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\Plugins\\eshop.StateStore.DI\\eshop.StateStore.DI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj",
+        "projectName": "eShop.DataStore.HardCoded",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\Plugins\\eShop.DataStore.HardCoded\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop\\Plugins\\eshop.StateStore.DI\\eshop.StateStore.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop\\Plugins\\eshop.StateStore.DI\\eshop.StateStore.DI.csproj",
+        "projectName": "eshop.StateStore.DI",
+        "projectPath": "D:\\Repos\\Blazor_eshop\\Plugins\\eshop.StateStore.DI\\eshop.StateStore.DI.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop\\Plugins\\eshop.StateStore.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.UseCases\\eShop.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.Core\\eShop.BDD.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.Core\\eShop.BDD.Core.csproj",
+        "projectName": "eShop.BDD.Core",
+        "projectPath": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.Core\\eShop.BDD.Core.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[107.0.5304.6200, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.UI\\eShop.BDD.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.UI\\eShop.BDD.UI.csproj",
+        "projectName": "eShop.BDD.UI",
+        "projectPath": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.UI\\eShop.BDD.UI.csproj",
+        "packagesPath": "C:\\Users\\Sntlnss\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sntlnss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop\\eShop.Web\\eShop.Web.csproj"
+              },
+              "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.Core\\eShop.BDD.Core.csproj": {
+                "projectPath": "D:\\Repos\\Blazor_eshop_solution\\Blazor.eShop\\eShop.BDD\\eShop.BDD.Core\\eShop.BDD.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[107.0.5304.6200, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "System.Linq.Queryable": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
